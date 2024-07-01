@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 315px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 648px;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 904px;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    width: 1320px;
+  }
+}
+@media (min-width: 1920px) {
+  .wrapper {
+    width: 1600px;
+  }
+}
+.cards {
+  background-image: linear-gradient(225deg, #323264, #323264, #643E72);
+}
+
+.cards-inner {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .cards-inner {
+    flex-direction: row;
+    gap: 60px;
+    padding-top: 60px;
+  }
+}
+.cards-link {
+  color: #24A3FF;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.capitalise-links {
+  color: #24A3FF;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Montserrat, sans-serif;
+}
+
+.cards-inner-titles {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards-inner-titles-next {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3px;
+}
+
+.content-titles {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #F0145A, #EF8080);
+  font-family: Montserrat, sans-serif;
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .card-inner {
+    width: 294px;
+  }
+}
+@media (min-width: 1024px) {
+  .card-inner {
+    width: 261px;
+  }
+}
+@media (min-width: 1440px) {
+  .card-inner {
+    width: 360px;
+  }
+}
+@media (min-width: 1920px) {
+  .card-inner {
+    width: 493px;
+  }
+}
+.card-inner-links {
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  padding: 14px;
+  border-radius: 14px;
+  width: 92px;
+  height: 92px;
+}
+
+.cards-inner-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.partners {
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-for-partners {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #323264;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.partners-icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .partners-icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.partner-icon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 120px;
+  width: 100%;
+}
+.partner-icon:nth-child(1) {
+  background-color: #1C4280;
+}
+.partner-icon:nth-child(2) {
+  background-color: #143646;
+}
+.partner-icon:nth-child(3) {
+  background-color: #F48B30;
+}
+.partner-icon:nth-child(4) {
+  background-color: #9E4DC3;
+}
+.partner-icon:nth-child(5) {
+  background-color: #FD9339;
+}
+.partner-icon:nth-child(6) {
+  background-color: #E2E2E4;
+}
+.partner-icon:nth-child(7) {
+  background-color: #C71C36;
+}
+.partner-icon:nth-child(8) {
+  background-color: #DCF3F9;
+}
+.partner-icon:nth-child(9) {
+  background-color: #EAEAEA;
+}
+.partner-icon:nth-child(10) {
+  background-color: #282240;
+}
+.partner-icon:nth-child(11) {
+  background-color: #1D4568;
+}
+.partner-icon:nth-child(12) {
+  background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .partner-icon {
+    width: 33%;
+    height: 120px;
+  }
+}
+@media (min-width: 1024px) {
+  .partner-icon {
+    width: 25%;
+    height: 120px;
+  }
+}
+@media (min-width: 1440px) {
+  .partner-icon {
+    width: 25%;
+    height: 120px;
+  }
+}
+@media (min-width: 1920px) {
+  .partner-icon {
+    width: 25%;
+    height: 120px;
+  }
+  .partners-icons {
+    width: 1720px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

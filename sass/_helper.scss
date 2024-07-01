@@ -1,0 +1,38 @@
+@use "./mixins";
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+   @include mixins.centered;
+    width: 315px;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 648px;
+}
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        width: 904px;
+}
+}
+
+
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 1320px;
+}
+}
+
+
+@media (min-width: 1920px) {
+    .wrapper {
+        width: 1600px;
+}
+}
+
+
