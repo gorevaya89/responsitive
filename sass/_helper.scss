@@ -5,34 +5,37 @@
 }
 
 .wrapper {
-   @include mixins.centered;
-    width: 315px;
+    padding: 30px;
 }
 
 @media (min-width: 768px) {
     .wrapper {
-        width: 648px;
-}
+        padding: 60px;
+    }
 }
 
 @media (min-width: 1024px) {
     .wrapper {
-        width: 904px;
-}
+        padding: 60px;
+    }
 }
 
 
 @media (min-width: 1440px) {
     .wrapper {
-        width: 1320px;
-}
+        padding: 60px;
+    }
 }
 
 
 @media (min-width: 1920px) {
     .wrapper {
         width: 1600px;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-}
-
-

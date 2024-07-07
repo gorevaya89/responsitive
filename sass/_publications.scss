@@ -1,0 +1,123 @@
+@use "./mixins";
+@use "./variables";
+
+.publications {
+    background-color: #F5F5FA;
+}
+
+.wrapper-pbl {
+    padding: 30px;
+}
+
+.publications-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.capitalise-links {
+    margin-bottom: 10px;
+}
+
+.publications-blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.publications-images {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.publications-blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.publication-links-content {
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.publication-links {
+    color: #24A3FF;
+    text-decoration: none;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+time {
+    color: #B3B3BA;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.publication-blog-text {
+    color: #000000;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+
+    &::before {
+        content: "";
+        border: 4px solid #E6E6F0;
+        width: 100%;
+        position: absolute;
+        top: -15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper-pbl {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .publications-blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .publications-blog:nth-child(3) {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .publications-blogs {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .publications-blog:nth-child(3) {
+        grid-column: auto / auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper-pbl {
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+}

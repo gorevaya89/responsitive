@@ -22,8 +22,6 @@
     }
 }
 
-
-
 .cards-link {
     @include mixins.links-font;
     margin-bottom: 15px;
@@ -31,10 +29,13 @@
 
 .capitalise-links {
     @include mixins.links-font;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 14px;
     line-height: 17px;
     font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .cards-inner-titles {
@@ -62,25 +63,25 @@
 
 @media (min-width:768px) {
     .card-inner {
-        width: 294px;
+        width: calc(50% - 30px);
     }
 }
  
 @media (min-width:1024px) {
     .card-inner {
-        width: 261px;
+        width: calc(33.33% - 40px);
     }
 }
 
 @media (min-width:1440px) {
     .card-inner {
-        width: 360px;
+        width: calc(33.33% - 40px);
     }
 }
 
 @media (min-width:1920px) {
     .card-inner {
-        width: 493px;
+        width: calc(33.33% - 40px);
     }
 }
 
