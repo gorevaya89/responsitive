@@ -47,7 +47,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 30px;
 }
 
 .cards-inner-titles-next {
@@ -86,10 +85,6 @@
 @media (min-width:768px) {
     .card-inner {
         width: calc(50% - 30px);
-    }
-
-    .cards-inner-titles {
-        padding-top: 60px;
     }
 }
 
