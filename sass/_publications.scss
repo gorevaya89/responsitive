@@ -3,11 +3,9 @@
 
 .publications {
     background-color: #F5F5FA;
+    padding-top: 30px;
 }
 
-.wrapper-pbl {
-    padding: 30px;
-}
 
 .publications-content {
     display: flex;
@@ -91,10 +89,6 @@ time {
 }
 
 @media (min-width: 768px) {
-    .wrapper-pbl {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
 
     .publications-blogs {
         grid-template-columns: repeat(2, 1fr);
@@ -106,6 +100,7 @@ time {
 }
 
 @media (min-width: 1024px) {
+
     .publications-blogs {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -115,9 +110,3 @@ time {
     }
 }
 
-@media (min-width: 1920px) {
-    .wrapper-pbl {
-        padding-left: 160px;
-        padding-right: 160px;
-    }
-}

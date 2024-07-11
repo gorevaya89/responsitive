@@ -14,7 +14,6 @@
     text-align: center;
     text-transform: uppercase;
     color: #323264;
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -115,5 +114,9 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 120px);
         @include mixins.centered;
+    }
+
+    .partners {
+        margin-bottom: 60px;
     }
 }

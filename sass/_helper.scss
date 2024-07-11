@@ -5,25 +5,58 @@
 }
 
 .wrapper {
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
+
+.hero {
+    position: relative;
+
+    
+    &::before {
+        content: "";
+        height: 10px;
+        background-color: #CACADB;
+        border-radius: 0 0 12px 12px;
+        position: absolute;
+        top: 100%;
+        left: 20px;
+        right: 20px;
+    }
+
+    &::after {
+        content: "";
+        height: 10px;
+        background-color: #E7E7F2;
+        border-radius: 0 0 12px 12px;
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 40px;
+        right: 40px;
+    }
+}
+
 
 @media (min-width: 768px) {
     .wrapper {
-        padding: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
 @media (min-width: 1024px) {
     .wrapper {
-        padding: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
 
 @media (min-width: 1440px) {
     .wrapper {
-        padding: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
@@ -31,10 +64,6 @@
 @media (min-width: 1920px) {
     .wrapper {
         width: 1600px;
-        padding-left: 160px;
-        padding-right: 160px;
-        padding-top: 30px;
-        padding-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
     }
