@@ -14,26 +14,90 @@
 
 <body>
     <section class="hero">
-        <div class="wrapper">
-                <div class="hero-content">
-                    <div class="hero-links">
-                        <a href="/" class="hero-link">Consistent</a>
-                        <a href="/" class="hero-link">Customer oriented</a>
-                        <a href="/" class="hero-link">Innovative</a>
-                        <a href="/" class="hero-link">Business oriented</a>
-                    </div>
-                    <div class="hero-split"></div>
-                    <div class="hero-content-wrapper">
-                        <div class="hero-content-text">
-                            <h3>We turn the idea of legal services</h3>
-                            <p>
-                                Consolidating many years of experience and practice, the company's lawyers accompany complex
-                                projects
-                                and achieve a number of important decisions for the industry. Many of them form the practice
-                                of
-                                applying the law of the sea in Ukraine.
-                            </p>
+        <div class="hero-background">
+            <div class="top-hero-wrapper">
+                <div class="top-hero-content">
+                    <header class="mobile-header">
+                        <div class="mobile-header-top-side">
+                            <div class="languages-switch">
+                                <a href="" class="language-switch">УК</a>
+                                <a href="" class="language-switch">RU</a>
+                                <a href="" class="language-switch language-switch-active">EN</a>
+                            </div>
+                            <a href="tel:0800 211 927" class="header-contact-tel">0800 211 927</a>
                         </div>
+                        <div class="mobile-header-bottom-side">
+                            <a href="/">
+                                <img src="./images/Logo.svg" width="69" height="32" alt="logo">
+                            </a>
+                            <button class="button-menu">
+                                <svg width="32" height="32" viewBox="0 0 32 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Button / Hamburger">
+                                        <path id="Vector" d="M7 10.5H25" stroke="white" stroke-width="2" />
+                                        <path id="Vector_2" d="M7 16.5H25" stroke="white" stroke-width="2" />
+                                        <path id="Vector_3" d="M7 22.5H25" stroke="white" stroke-width="2" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </header>
+                    <header class="desktop-header">
+                        <div class="header-top">
+                            <div class="languages-switch">
+                                <a href="" class="language-switch">УК</a>
+                                <a href="" class="language-switch">RU</a>
+                                <a href="" class="language-switch language-switch-active">EN</a>
+                            </div>
+                            <div class="dot"></div>
+                            <p class="header-address">Kyiv, Mechnikova str., 14/1</p>
+                            <div class="dot"></div>
+                            <a href="tel:0800 211 927" class="header-contact-tel">0800 211 927</a>
+                            <div class="dot"></div>
+                            <a href="" class="header-media">
+                                <img src="./images/facebook.svg" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="header-center">
+                            <a href="/">
+                                <img src="./images/Logo.svg" class="logo-desktop" width="69" height="32" alt="logo">
+                            </a>
+                        </div>
+                        <div class="header-bottom">
+                            <a href="" class="header-link">about us</a>
+                            <a href="" class="header-link">services</a>
+                            <a href="" class="header-link">team</a>
+                            <a href="" class="header-link">publications</a>
+                            <a href="" class="header-link">contact</a>
+                        </div>
+                    </header>
+                    <h2 class="top-hero-title">you legal solutions provider</h2>
+                    <div class="top-hero-button">
+                        <img src="./images/Scroll.svg" height="42" width="42" alt="arrow-down">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="hero-content">
+                <div class="hero-links">
+                    <a href="/" class="hero-link">Consistent</a>
+                    <a href="/" class="hero-link">Customer oriented</a>
+                    <a href="/" class="hero-link">Innovative</a>
+                    <a href="/" class="hero-link">Business oriented</a>
+                </div>
+                <div class="hero-split"></div>
+                <div class="hero-content-wrapper">
+                    <div class="hero-content-text">
+                        <h3>We turn the idea of legal services</h3>
+                        <p>
+                            Consolidating many years of experience and practice, the company's lawyers accompany complex
+                            projects
+                            and achieve a number of important decisions for the industry. Many of them form the practice
+                            of
+                            applying the law of the sea in Ukraine.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="cards-inner-titles">
@@ -136,7 +200,11 @@
     <section class="slider">
         <div class="wrapper">
             <div class="wrapper-slider">
-                <img src="./images/slider.jpg" class="image-slider" alt="slider">
+                <picture>
+                    <source srcset="./images/slider.avif" type="image/avif">
+                    <source srcset="./images/slider.jpg" type="image/jpg">
+                    <img src="./images/slider.jpg" class="image-slider" alt="slider">
+                </picture>
                 <div class="slider-text">
                     <a href="/" class="capitalise-links">
                         <span>команда</span>
@@ -216,7 +284,11 @@
                 </h3>
                 <div class="publications-blogs">
                     <div class="publications-blog">
-                        <img src="./images/leftIMG.jpg" class="publications-images" alt="people with devices">
+                        <picture>
+                            <source srcset="./images/leftIMG.avif" type="image/avif">
+                            <source srcset="./images/leftIMG.jpg" type="image/jpg">
+                            <img src="./images/leftIMG.jpg" class="publications-images" alt="people with devices">
+                        </picture>
                         <div class="publication-links-content">
                             <a href="/" class="publication-links">
                                 Equity associate
@@ -230,7 +302,11 @@
                         </div>
                     </div>
                     <div class="publications-blog">
-                        <img src="./images/rightIMG.jpg" class="publications-images" alt="people with devices">
+                        <picture>
+                            <source srcset="./images/rightIMG.avif" type="image/avif">
+                            <source srcset="./images/rightIMG.jpg" type="image/jpg">
+                            <img src="./images/rightIMG.jpg" class="publications-images" alt="people with devices">
+                        </picture>
                         <div class="publication-links-content">
                             <a href="/" class="publication-links">
                                 Penalty for the Good Corporation: what will happen to
@@ -244,7 +320,11 @@
                         </div>
                     </div>
                     <div class="publications-blog">
-                        <img src="./images/bottomIMG.jpg" class="publications-images" alt="people with devices">
+                        <picture>
+                            <source srcset="./images/bottomIMG.avif" type="image/avif">
+                            <source srcset="./images/bottomIMG.jpg" type="image/jpg">
+                            <img src="./images/bottomIMG.jpg" class="publications-images" alt="people with devices">
+                        </picture>
                         <div class="publication-links-content">
                             <a href="/" class="publication-links">
                                 Millennial Testament
@@ -260,6 +340,55 @@
                 </div>
             </div>
     </section>
+    <section class="footer">
+        <div class="wrapper">
+            <div class="footer-content-mobile">
+                <div class="separator"></div>
+                <p class="footer-address">Kyiv, Mechnikova str., 14/1</p>
+                <a href="" class="geolocation">on map</a>
+                <a href="" class="footer-media">
+                    <img src="./images/facebook-footer.svg" alt="facebook">
+                </a>
+                <a href="tel:0800 211 927" class="footer-contact-tel">0800 211 927</a>
+                <a href="mailto:contact@forstudy.space" class="footer-mail">contact@forstudy.space</a>
+                <p class="footer-legal">© 2021 HLEGAL Law company, LLC</p>
+            </div>
+            <div class="footer-content-desktop">
+                <div class="separator"></div>
+                <div class="contact-info">
+                    <div class="location-info">
+                        <p class="footer-address">Kyiv, Mechnikova str., 14/1</p>
+                        <div class="dot"></div>
+                        <a href="" class="geolocation">on map</a>
+                    </div>
+                    <p class="footer-legal">© 2021 HLEGAL Law company, LLC</p>
+                </div>
+                <div class="footer-links">
+                    <a href="" class="footer-media">
+                        <img src="./images/facebook-footer.svg" alt="facebook">
+                    </a>
+                    <div class="dot"></div>
+                    <a href="tel:0800 211 927" class="footer-contact-tel">0800 211 927</a>
+                    <div class="dot"></div>
+                    <a href="mailto:contact@forstudy.space" class="footer-mail">contact@forstudy.space</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="header-menu header-menu-closed">
+        <div class="header-menu-content">
+            <button class="close-header-menu-button">
+                <img src="./images/close.svg" alt="close">
+            </button>
+            <div class="header-menu-links">
+                <a href="" class="header-menu-link">about us</a>
+                <a href="" class="header-menu-link">послуги</a>
+                <a href="" class="header-menu-link">команда</a>
+                <a href="" class="header-menu-link header-menu-link-active">публікації</a>
+                <a href="" class="header-menu-link">контакти</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

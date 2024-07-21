@@ -7,13 +7,16 @@
 .wrapper {
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
 }
 
 
 .hero {
     position: relative;
 
-    
+
     &::before {
         content: "";
         height: 10px;
@@ -61,10 +64,10 @@
 }
 
 
-@media (min-width: 1920px) {
-    .wrapper {
-        width: 1600px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+// @media (min-width: 1920px) {
+//     .wrapper {
+//         width: 1600px;
+//         margin-left: auto;
+//         margin-right: auto;
+//     }
+// }

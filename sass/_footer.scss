@@ -1,0 +1,140 @@
+.footer {
+    background-color: #F5F5FA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.separator {
+    height: 2px;
+    background-color: #E6E6F0;
+    margin-bottom: 30px;
+}
+
+.footer-address {
+    color: #323264;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.geolocation {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #24A3FF;
+    text-transform: uppercase;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+}
+
+.footer-media {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-contact-tel {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #46466E;
+}
+
+.footer-mail {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #24A3FF;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.footer-legal {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #B3B3BA;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+@media (max-width: 768px) {
+    .footer-content-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-content-mobile {
+        display: none;
+    }
+}
+
+.footer-content-desktop {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content-desktop .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-desktop .location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-desktop .footer-legal {
+    margin-bottom: 0;
+}
+
+.footer-content-desktop .geolocation {
+    margin-bottom: 0;
+}
+
+.footer-content-desktop .footer-address {
+    margin-bottom: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.contact-info {
+    margin-bottom: 21px;
+}
+
+.footer-links .footer-contact-tel {
+    margin-bottom: 0;
+}
+
+.footer-links .footer-mail {
+    margin-bottom: 0; 
+}
+
+.footer-links .footer-media {
+    margin-bottom: 0; 
+}
