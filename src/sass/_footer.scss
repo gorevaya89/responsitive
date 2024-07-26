@@ -76,17 +76,6 @@
     line-height: 19px;
 }
 
-@media (max-width: 768px) {
-    .footer-content-desktop {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) {
-    .footer-content-mobile {
-        display: none;
-    }
-}
 
 .footer-content-desktop {
     display: flex;
@@ -137,4 +126,19 @@
 
 .footer-links .footer-media {
     margin-bottom: 0; 
+}
+
+
+@media (min-width: 768px) {
+    .footer-content-mobile {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .footer-content-desktop {
+        display: none;
+    }
 }
