@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
+    <title>Publications 123</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,56 +18,237 @@
 <body>
     <div class="container-xxl">
         <header class="mobile-header">
-            <div class="mobile-header-top-side">
+            <div class="mobile-header-top-side background-grey">
                 <div class="languages-switch">
-                    <a href="" class="language-switch">УК</a>
-                    <a href="" class="language-switch">RU</a>
+                    <a href="" class="language-switch mobile-grey">УК</a>
+                    <a href="" class="language-switch mobile-grey">RU</a>
                     <a href="" class="language-switch language-switch-active">EN</a>
                 </div>
-                <a href="tel:0800 211 927" class="header-contact-tel">0800 211 927</a>
+                <a href="tel:0800 211 927" class="header-contact-tel mobile-grey">0800 211 927</a>
             </div>
             <div class="mobile-header-bottom-side">
                 <a href="/">
-                    <img src="./images/LogpPublications.svg" width="69" height="32" alt="logo">
+                    <img src="./images/LogoPublications.svg" width="212" height="57" alt="logo">
                 </a>
                 <button class="button-menu">
                     <svg width="32" height="32" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Button / Hamburger">
-                            <path id="Vector" d="M7 10.5H25" stroke="white" stroke-width="2" />
-                            <path id="Vector_2" d="M7 16.5H25" stroke="white" stroke-width="2" />
-                            <path id="Vector_3" d="M7 22.5H25" stroke="white" stroke-width="2" />
+                            <path id="Vector" d="M7 10.5H25" stroke="#323264" stroke-width="2" />
+                            <path id="Vector_2" d="M7 16.5H25" stroke="#323264" stroke-width="2" />
+                            <path id="Vector_3" d="M7 22.5H25" stroke="#323264" stroke-width="2" />
                         </g>
                     </svg>
                 </button>
             </div>
         </header>
-        <header class="desktop-header">
+        <header class="desktop-header desktop-header-padding">
             <div class="header-top">
                 <div class="languages-switch">
-                    <a href="" class="language-switch">УК</a>
-                    <a href="" class="language-switch">RU</a>
+                    <a href="" class="language-switch mobile-grey">УК</a>
+                    <a href="" class="language-switch mobile-grey">RU</a>
                     <a href="" class="language-switch language-switch-active">EN</a>
                 </div>
                 <div class="dot"></div>
                 <p class="header-address">Kyiv, Mechnikova str., 14/1</p>
                 <div class="dot"></div>
-                <a href="tel:0800 211 927" class="header-contact-tel">0800 211 927</a>
+                <a href="tel:0800 211 927" class="header-contact-tel mobile-grey">0800 211 927</a>
                 <div class="dot"></div>
                 <a href="" class="header-media">
-                    <img src="./images/facebook.svg" alt="facebook">
+                    <img src="./images/facebook-grey.svg" alt="facebook">
                 </a>
             </div>
             <div class="header-center">
                 <a href="/">
-                    <img src="./images/Logo.svg" class="logo-desktop" width="69" height="32" alt="logo">
+                    <img src="./images/logo-desktop.svg" class="logo-desktop" width="382" height="60" alt="logo">
                 </a>
             </div>
-            <div class="header-bottom">
-                <a href="" class="header-link">about us</a>
-                <a href="" class="header-link">services</a>
-                <a href="" class="header-link">team</a>
-                <a href="" class="header-link">publications</a>
-                <a href="" class="header-link">contact</a>
+            <div class="header-bottom header-bottom-publications">
+                <a href="" class="header-link header-blue">about us</a>
+                <a href="" class="header-link header-blue">services</a>
+                <a href="" class="header-link header-blue">team</a>
+                <a href="" class="header-link header-active">publications</a>
+                <a href="" class="header-link header-blue">contact</a>
             </div>
         </header>
     </div>
+    <section class="publications">
+        <div class="wrapper">
+            <div class="publication-buttons">
+                <button class="publication-button news-button">news</button>
+                <button class="publication-button articles-button">articles</button>
+            </div>
+            <div class="grid" style="--bs-gap: var(--my-gap)">
+                <div class="g-col-sm-12 g-col-md-6 g-col-lg-4 d-flex rounded-3 overflow-hidden">
+                    <div class="d-flex flex-column flex-grow-1">
+                        <picture>
+                            <source srcset="./images/leftIMG.avif" type="image/avif">
+                            <source srcset="./images/leftIMG.jpg" type="image/jpg">
+                            <img src="./images/leftIMG.jpg" class="publications-images" alt="people with devices">
+                        </picture>
+                        <div class="publication-links-content">
+                            <a href="/" class="publication-links">
+                                Equity associate
+                            </a>
+                            <time datetime="2024-04-22">April 22</time>
+                            <p class="publication-blog-text">
+                                I'm a jun on projects. I am a co-owner of a law firm. How
+                                it happened. Before entering my
+                                parents told me that if I…
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-col-sm-12 g-col-md-6 g-col-lg-4 d-flex rounded-3 overflow-hidden">
+                    <div class="d-flex flex-column flex-grow-1">
+                        <picture>
+                            <source srcset="./images/rightIMG.avif" type="image/avif">
+                            <source srcset="./images/rightIMG.jpg" type="image/jpg">
+                            <img src="./images/rightIMG.jpg" class="publications-images" alt="people with devices">
+                        </picture>
+                        <div class="publication-links-content">
+                            <a href="/" class="publication-links">
+                                Penalty for the Good Corporation: what will happen to Google and others for violating
+                                the GDPR
+                            </a>
+                            <time datetime="2018-09-29">September 29</time>
+                            <p class="publication-blog-text">
+                                And why the recovery of 50 million euros could be a fateful precedent According to
+                                Mind.ua January 21 National Commission for Data Protection.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-col-sm-12 g-col-md-6 g-col-lg-4 d-flex rounded-3 overflow-hidden">
+                    <div class="d-flex flex-column flex-grow-1">
+                        <picture>
+                            <source srcset="./images/bottomIMG.avif" type="image/avif">
+                            <source srcset="./images/bottomIMG.jpg" type="image/jpg">
+                            <img src="./images/bottomIMG.jpg" class="publications-images" alt="people with devices">
+                        </picture>
+                        <div class="publication-links-content">
+                            <a href="/" class="publication-links">
+                                Millennial Testament
+                            </a>
+                            <time datetime="2018-08-19">August 19</time>
+                            <p class="publication-blog-text">
+                                What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A
+                                typical legacy of the Ukrainian generation X looks like this: an apartment in…
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-col-sm-12 g-col-md-6 g-col-lg-4 d-flex rounded-3 overflow-hidden">
+                    <div class="d-flex flex-column flex-grow-1">
+                        <picture>
+                            <source srcset="./images/languages.avif" type="image/avif">
+                            <source srcset="./images/languages.jpg" type="image/jpg">
+                            <img src="./images/languages.jpg" class="publications-images" alt="people with devices">
+                        </picture>
+                        <div class="publication-links-content">
+                            <a href="/" class="publication-links">
+                                Language Law: How to Make Your Website Relevant
+                            </a>
+                            <time datetime="2018-08-19">August 19</time>
+                            <p class="publication-blog-text">
+                                Natalia Kyryk, head of content studio Wordfactory.ua First, it's beautiful! This is the
+                                number one argument in favor of the Ukrainian-language site. Secondly, it is effective.
+                                IN…
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-col-sm-12 g-col-md-6 g-col-lg-4 d-flex rounded-3 overflow-hidden">
+                    <div class="d-flex flex-column flex-grow-1">
+                        <picture>
+                            <source srcset="./images/children.avif" type="image/avif">
+                            <source srcset="./images/children.jpg" type="image/jpg">
+                            <img src="./images/children.jpg" class="publications-images" alt="people with devices">
+                        </picture>
+                        <div class="publication-links-content">
+                            <a href="/" class="publication-links">
+                                Reimbursement of the child's tuition fees in kindergarten and school
+                            </a>
+                            <time datetime="2018-02-5">February 5, 2018</time>
+                            <p class="publication-blog-text">
+                                What we are talking about In June this year, the Verkhovna Rada amended the Tax Code of
+                                Ukraine. From now on, parents who receive an official…
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-col-sm-12 g-col-md-6 g-col-lg-4 d-flex rounded-3 overflow-hidden">
+                    <div class="d-flex flex-column flex-grow-1">
+                        <div class="publication-links-content">
+                            <a href="/" class="publication-links">
+                                Currency control is dead, long live currency control!
+                            </a>
+                            <time datetime="2018-06-14">June 14</time>
+                            <p class="publication-blog-text">
+                                Experts hold conferences, round tables and other events on "liberalization of currency
+                                legislation." Lawyers-experts-novelists rub their fingers about "ctrl + c / ctrl + v".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="button-more-publications">More publications</button>
+    </section>
+    <section class="footer">
+        <div class="wrapper">
+            <div class="footer-content-mobile">
+                <div class="separator"></div>
+                <p class="footer-address">Kyiv, Mechnikova str., 14/1</p>
+                <a href="" class="geolocation">on map</a>
+                <a href="" class="footer-media">
+                    <img src="./images/facebook-footer.svg" alt="facebook">
+                </a>
+                <a href="tel:0800 211 927" class="footer-contact-tel">0800 211 927</a>
+                <a href="mailto:contact@forstudy.space" class="footer-mail">contact@forstudy.space</a>
+                <p class="footer-legal">© 2021 HLEGAL Law company, LLC</p>
+            </div>
+            <div class="footer-content-ipod">
+                <div class="separator"></div>
+                <div class="contact-info-footer">
+                    <div class="footer-centered">
+                        <div class="location-info-footer">
+                            <p class="footer-address">Kyiv, Mechnikova str., 14/1</p>
+                            <div class="dot"></div>
+                            <a href="" class="geolocation">on map</a>
+                        </div>
+                        <div class="footer-links">
+                            <a href="" class="footer-media">
+                                <img src="./images/facebook-footer.svg" alt="facebook">
+                            </a>
+                            <div class="dot"></div>
+                            <a href="tel:0800 211 927" class="footer-contact-tel">0800 211 927</a>
+                            <div class="dot"></div>
+                            <a href="mailto:contact@forstudy.space" class="footer-mail">contact@forstudy.space</a>
+                        </div>
+                    </div>
+                    <div class="footer-legal">
+                        © 2021 HLEGAL Law company, LLC
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content-desktop">
+                <div class="separator"></div>
+                <div class="contact-info">
+                    <div class="location-info">
+                        <p class="footer-address">Kyiv, Mechnikova str., 14/1</p>
+                        <div class="dot"></div>
+                        <a href="" class="geolocation">on map</a>
+                    </div>
+                    <p class="footer-legal">© 2021 HLEGAL Law company, LLC</p>
+                </div>
+                <div class="footer-links">
+                    <a href="" class="footer-media">
+                        <img src="./images/facebook-footer.svg" alt="facebook">
+                    </a>
+                    <div class="dot"></div>
+                    <a href="tel:0800 211 927" class="footer-contact-tel">0800 211 927</a>
+                    <div class="dot"></div>
+                    <a href="mailto:contact@forstudy.space" class="footer-mail">contact@forstudy.space</a>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -7,6 +7,7 @@ const htmlmin = require('gulp-htmlmin');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 
+
 function buildCss() {
     return gulp.src("./src/sass/style.scss")
         .pipe(sass())
@@ -55,4 +56,4 @@ function server() {
 
 
 
-exports.default = gulp.series(clear, copy, gulp.parallel(buildCss, buildHtml), gulp.parallel(watching, server));
+exports.default = gulp.series(clear, copy, gulp.series(buildCss, buildHtml), gulp.parallel(watching, server));

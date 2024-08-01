@@ -18,6 +18,7 @@
     "sass": "^1.77.8"
   },
   "dependencies": {
+    "bootstrap": "^5.1.0",
     "browser-sync": "^3.0.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-rename": "^2.0.0"
